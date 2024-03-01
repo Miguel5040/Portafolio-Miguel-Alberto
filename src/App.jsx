@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe"
 const App = () => {
 
   return (
-    <div className="container mx-auto max-w-[1200px] w-[90%]">
+    <div>
       <Navbar />
       <Hero />
       <AboutMe />
