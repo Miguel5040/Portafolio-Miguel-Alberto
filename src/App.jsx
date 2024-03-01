@@ -1,11 +1,15 @@
 import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import AboutMe from "./components/AboutMe"
 
 const App = () => {
 
   return (
-    <main>
+    <div className="container mx-auto max-w-[1200px] w-[90%]">
       <Navbar />
-    </main>
+      <Hero />
+      <AboutMe />
+    </div>
   )
 }
 
