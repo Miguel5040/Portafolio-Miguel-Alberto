@@ -22,7 +22,7 @@ const Navbar = () => {
                     <div>
                         <ul className="md:flex gap-8 hidden">
                             <li className="hover:underline cursor-pointer">Inicio</li>
-                            <li className="hover:underline cursor-pointer">Acerca de</li>
+                            <li className="hover:underline cursor-pointer">Sobre mi</li>
                             <li className="hover:underline cursor-pointer">Proyectos</li>
                             <li className="hover:underline cursor-pointer">Contacto</li>
                         </ul>
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <div className='flex flex-col items-center basis-full'>
                         <ul className="flex flex-col gap-5">
                             <li className="hover:underline cursor-pointer">Inicio</li>
-                            <li className="hover:underline cursor-pointer">Acerca de</li>
+                            <li className="hover:underline cursor-pointer">Sobre mi</li>
                             <li className="hover:underline cursor-pointer">Proyectos</li>
                             <li className="hover:underline cursor-pointer">Contacto</li>
                         </ul>
