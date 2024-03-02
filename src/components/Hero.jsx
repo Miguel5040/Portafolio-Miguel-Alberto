@@ -1,7 +1,7 @@
 
 const Hero = () => {
     return (
-        <main>
+        <main className="bg-[#17314f]">
             <div className="container mx-auto max-w-[1200px] w-[90%] flex md:flex-row flex-col md:gap-4 gap-14 justify-around items-center md:h-[600px] py-16 md:py-4">
                 <div className="flex flex-col gap-4 text-nowrap">
                     <h5 className="md:text-2xl text-xl">Hola mi nombre es:</h5>

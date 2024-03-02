@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <header className='py-10 flex-wrap'>
             <div className='container mx-auto max-w-[1200px] w-[90%]'>
-                <nav className="flex justify-between items-center mb-3">
+                <nav className="flex justify-between items-center">
                     <div>
                         <h1>Miguel Alberto</h1>
                     </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </div>
                 </nav>
                 {menuButton === 'close' && (
-                    <div className='flex flex-col items-center basis-full'>
+                    <div className='flex flex-col items-center basis-full mt-6'>
                         <ul className="flex flex-col gap-5">
                             <li className="hover:underline cursor-pointer">Inicio</li>
                             <li className="hover:underline cursor-pointer">Sobre mi</li>
