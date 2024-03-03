@@ -13,11 +13,11 @@ const Navbar = () => {
     }
 
     return (
-        <header className='py-10 flex-wrap'>
+        <header className='py-6 flex-wrap'>
             <div className='container mx-auto max-w-[1200px] w-[90%]'>
                 <nav className="flex justify-between items-center">
                     <div>
-                        <h1>Miguel Alberto</h1>
+                        <h1 className='text-2xl font-poppins'>Miguel A.</h1>
                     </div>
                     <div>
                         <ul className="md:flex gap-8 hidden">
