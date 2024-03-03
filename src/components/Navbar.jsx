@@ -12,6 +12,14 @@ const Navbar = () => {
         setMenuButton('menu')
     }
 
+    function scrollSection(id) {
+        const section = document.getElementById(id)
+        const yOffset = -100
+        const y = section.getBoundingClientRect().top + window.scrollY + yOffset
+
+        window.scrollTo({ top: y, behavior: "smooth" })
+    }
+
     return (
         <header className='py-6 flex-wrap bg-[#0c1b2d] bg-opacity-80 backdrop-blur-sm z-[100]'>
             <div className='container mx-auto max-w-[1200px] w-[90%]'>
@@ -21,10 +29,10 @@ const Navbar = () => {
                     </div>
                     <div>
                         <ul className="md:flex gap-8 hidden">
-                            <li className="hover:underline cursor-pointer">Inicio</li>
-                            <li className="hover:underline cursor-pointer">Sobre mi</li>
-                            <li className="hover:underline cursor-pointer">Proyectos</li>
-                            <li className="hover:underline cursor-pointer">Tecnologias</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('inicio') }}>Inicio</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
                         </ul>
                     </div>
                     <div className='flex items-center gap-6 md:hidden'>
@@ -34,10 +42,10 @@ const Navbar = () => {
                 {menuButton === 'close' && (
                     <div className='flex flex-col items-center basis-full mt-6'>
                         <ul className="flex flex-col gap-5">
-                            <li className="hover:underline cursor-pointer">Inicio</li>
-                            <li className="hover:underline cursor-pointer">Sobre mi</li>
-                            <li className="hover:underline cursor-pointer">Proyectos</li>
-                            <li className="hover:underline cursor-pointer">Contacto</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('inicio') }}>Inicio</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
+                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
                         </ul>
                     </div>
                 )}

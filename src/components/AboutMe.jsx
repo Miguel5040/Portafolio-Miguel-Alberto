@@ -3,7 +3,7 @@ import Education from "./Education"
 const AboutMe = () => {
 
     return (
-        <section className="flex flex-col justify-center items-center py-20 md:py-10 md:h-[500px] gap-8">
+        <section id="sobreMi" className="flex flex-col justify-center items-center py-20 md:py-10 md:h-[500px] gap-8">
             <h1 className="text-3xl mb-4">Sobre mi</h1>
             <div className="container mx-auto max-w-[1200px] w-[90%] flex md:flex-row flex-col justify-between gap-8 lg:gap-16">
                 <article className="flex flex-col gap-6 justify-center items-center">
