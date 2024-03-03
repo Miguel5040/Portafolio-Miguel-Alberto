@@ -2,7 +2,7 @@
 const Hero = () => {
     return (
         <main className="bg-[#17314f]">
-            <div className="container mx-auto max-w-[1200px] w-[90%] flex md:flex-row flex-col md:gap-4 gap-14 justify-around items-center md:h-[600px] py-16 md:py-4">
+            <div className="container mx-auto max-w-[1200px] w-[90%] flex md:flex-row flex-col md:gap-4 gap-14 justify-around items-center md:h-[650px] py-20 pt-32 md:py-4">
                 <div className="flex flex-col gap-4 text-nowrap">
                     <h5 className="md:text-2xl text-xl">Hola mi nombre es:</h5>
                     <h1 className="md:text-6xl text-5xl">Miguel Alberto</h1>

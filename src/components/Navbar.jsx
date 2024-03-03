@@ -13,18 +13,18 @@ const Navbar = () => {
     }
 
     return (
-        <header className='py-6 flex-wrap'>
+        <header className='py-6 flex-wrap bg-[#0c1b2d] bg-opacity-80 backdrop-blur-sm z-[100]'>
             <div className='container mx-auto max-w-[1200px] w-[90%]'>
                 <nav className="flex justify-between items-center">
                     <div>
-                        <h1 className='text-2xl font-poppins'>Miguel A.</h1>
+                        <h1 className='text-2xl font-poppins cursor-default select-none'>Miguel A.</h1>
                     </div>
                     <div>
                         <ul className="md:flex gap-8 hidden">
                             <li className="hover:underline cursor-pointer">Inicio</li>
                             <li className="hover:underline cursor-pointer">Sobre mi</li>
                             <li className="hover:underline cursor-pointer">Proyectos</li>
-                            <li className="hover:underline cursor-pointer">Contacto</li>
+                            <li className="hover:underline cursor-pointer">Tecnologias</li>
                         </ul>
                     </div>
                     <div className='flex items-center gap-6 md:hidden'>
