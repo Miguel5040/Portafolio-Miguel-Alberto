@@ -3,7 +3,7 @@ import Language from "../sub-components/Language"
 const Technologies = () => {
 
     return (
-        <section className="py-20">
+        <section className="py-20 pb-32">
             <div className="container mx-auto max-w-[1200px] w-[90%]">
                 <h1 className="text-3xl pb-14 text-center">Tecnologias</h1>
                 <div className="grid md:grid-cols-7 grid-cols-4 md:gap-16 gap-6">
