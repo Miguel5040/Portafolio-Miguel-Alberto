@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+      font-family: "Montserrat", montserrat;
+    }
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: inherit;
+  color: rgb(181, 247, 225);
+}

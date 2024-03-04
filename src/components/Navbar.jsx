@@ -29,10 +29,10 @@ const Navbar = () => {
                     </div>
                     <div>
                         <ul className="md:flex gap-8 hidden">
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('inicio') }}>Inicio</li>
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('inicio') }}>Inicio</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
                         </ul>
                     </div>
                     <div className='flex items-center gap-6 md:hidden'>
@@ -40,12 +40,12 @@ const Navbar = () => {
                     </div>
                 </nav>
                 {menuButton === 'close' && (
-                    <div className='flex flex-col items-center basis-full mt-6'>
+                    <div className='flex flex-col items-start basis-full mt-6'>
                         <ul className="flex flex-col gap-5">
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('inicio') }}>Inicio</li>
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
-                            <li className="hover:underline cursor-pointer" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('inicio') }}>Inicio</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
                         </ul>
                     </div>
                 )}
