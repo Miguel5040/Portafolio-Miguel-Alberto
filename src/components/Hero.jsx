@@ -13,7 +13,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div>
-                    <img className="w-[220px] rounded-full" src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt="fotografia de Miguel Alberto" />
+                    <img className="w-[220px] rounded-full aspect-square" src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt="fotografia de Miguel Alberto" />
                 </div>
             </div>
         </main>

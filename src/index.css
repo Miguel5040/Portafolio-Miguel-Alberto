@@ -6,6 +6,12 @@
     html {
       font-family: "Montserrat", montserrat;
     }
+
+    body {
+      height: 100vh;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
 }
 
 h1 {

@@ -2,8 +2,8 @@
 const StarWarsBlog = () => (
 
     <article className="flex flex-col md:flex-row lg:justify-center justify-between items-center gap-10">
-        <div className="w-full md:w-1/2 flex items-center md:max-w-[500px]">
-            <img className="w-[100%]" src="./src/assets/images/starwarsBlog.jpg" alt="imagen de proyecto" />
+        <div className="w-full md:w-1/2 flex items-center md:max-w-[500px] shadow-[0_1px_60px_-15px_rgba(0,0,0,0.3)] shadow-[#fff]">
+            <img className="w-[100%] aspect-video" src="./src/assets/images/starwarsBlog.jpg" alt="imagen de proyecto" />
         </div>
         <div className="flex flex-col md:items-start items-center gap-4 w-full md:w-1/2">
             <h3 className="text-3xl">StarWars Blog</h3>
