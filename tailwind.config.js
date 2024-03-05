@@ -11,6 +11,8 @@ export default {
       'system-ui': ['"system-ui"']
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 

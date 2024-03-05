@@ -13,8 +13,8 @@ const AboutMe = () => {
             </div>
             <div className="container mx-auto max-w-[1200px] w-[90%] flex md:flex-row flex-col justify-between gap-8 lg:gap-16">
                 <article className="flex flex-col gap-6 justify-center items-center">
-                    <p className="text-lg text-pretty">¡Hola! Soy Miguel Alberto, un desarrollador web apasionado por crear experiencias digitales únicas y funcionales. Mi enfoque se centra en la innovación y la creatividad para superar desafíos y ofrecer resultados excepcionales.</p>
-                    <p className="text-lg text-pretty">Soy una persona trabajadora y dedicada, siempre buscando formas de mejorar y superar obstáculos. Si estás buscando a alguien que aporte pasión y determinación a tu equipo, ¡aquí estoy yo!</p>
+                    <p className="text-lg text-pretty"><strong className="font-medium text-[#fef08a]">¡Hola!</strong> Soy <strong className="font-normal underline underline-offset-4">Miguel Alberto</strong>, un desarrollador web apasionado por crear experiencias digitales únicas y funcionales. Mi enfoque se centra en la <strong className="font-medium text-[#fef08a]">innovación y la creatividad</strong> para superar desafíos y ofrecer resultados excepcionales.</p>
+                    <p className="text-lg text-pretty">Soy una persona <strong className="font-medium text-[#fef08a]">trabajadora y dedicada</strong>, siempre buscando formas de mejorar y superar obstáculos. Si estás buscando a alguien que aporte pasión y determinación a tu equipo, <strong className="font-normal underline underline-offset-4">¡aquí estoy yo!</strong></p>
                 </article>
                 <Education />
             </div>

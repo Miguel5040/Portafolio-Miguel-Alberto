@@ -14,7 +14,7 @@ const Navbar = () => {
 
     function scrollSection(id) {
         const section = document.getElementById(id)
-        const yOffset = -100
+        const yOffset = -20
         const y = section.getBoundingClientRect().top + window.scrollY + yOffset
 
         window.scrollTo({ top: y, behavior: "smooth" })
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
                 </nav>
                 {menuButton === 'close' && (
-                    <div className='flex flex-col items-start basis-full mt-6 md:hidden'>
+                    <div className='flex flex-col items-start basis-full mt-6 md:hidden animate-fade-down animate-duration-100  '>
                         <ul className="flex flex-col gap-5">
                             <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('inicio') }}>Inicio</li>
                             <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
