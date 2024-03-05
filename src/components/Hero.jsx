@@ -14,7 +14,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div className="flex flex-col gap-6">
-                    <img className="w-[220px] rounded-full aspect-square shadow-[0_1px_60px_-20px_rgba(0,0,0,0.3)] shadow-[#fff]" src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt="fotografia de Miguel Alberto" />
+                    <img className="w-[220px] rounded-full aspect-square shadow-[0_1px_60px_-20px_rgba(0,0,0,0.3)] shadow-[#fff]" src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt="fotografía de Miguel Alberto" />
                     <div className="flex justify-around">
                         <a href="https://www.linkedin.com/in/miguel-alberto-ordonez/" className="gap-2 w-fit inline-flex items-center p-2 text-sm font-medium text-gray-900 border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700" target="_blank">
                             <img className="w-[30px]" src="./linkedin.svg" alt="Icono Curriculum Vitae" />

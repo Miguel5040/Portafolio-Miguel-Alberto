@@ -3,10 +3,10 @@ import Language from "../sub-components/Language"
 const Technologies = () => {
 
     return (
-        <section id="tecnologias" className="py-20 pb-32">
+        <section id="tecnologías" className="py-20 pb-32">
             <div className="container mx-auto max-w-[1200px] w-[90%]">
                 <div className="flex flex-col justify-center items-center mb-16">
-                    <h1 className="pb-2 text-center">Tecnologias</h1>
+                    <h1 className="pb-2 text-center">Tecnologías</h1>
                     <div className="flex flex-col items-center">
                         <div className="bg-[#bcbcbc] w-[50px] h-[2px] mb-2"></div>
                         <div className="bg-[#bcbcbc] w-[100px] h-[2px]"></div>

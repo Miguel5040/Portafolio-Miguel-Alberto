@@ -36,11 +36,11 @@ const Navbar = () => {
                             <li className="hover:underline hover:text-[#B5F7E1] cursor-pointer underline-offset-8" onClick={() => { scrollSection('inicio') }}>Inicio</li>
                             <li className="hover:underline hover:text-[#B5F7E1] cursor-pointer underline-offset-8" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
                             <li className="hover:underline hover:text-[#B5F7E1] cursor-pointer underline-offset-8" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
-                            <li className="hover:underline hover:text-[#B5F7E1] cursor-pointer underline-offset-8" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
+                            <li className="hover:underline hover:text-[#B5F7E1] cursor-pointer underline-offset-8" onClick={() => { scrollSection('tecnologías') }}>Tecnologías</li>
                         </ul>
                     </div>
                     <div className='flex items-center gap-6 md:hidden'>
-                        <img className='cursor-pointer w-10' src={'../' + menuButton + '.svg'} onClick={toggleButtonMenu} alt="menu de navegacion" />
+                        <img className='cursor-pointer w-10' src={'../' + menuButton + '.svg'} onClick={toggleButtonMenu} alt="menu de navegación" />
                     </div>
                 </nav>
                 {menuButton === 'close' && (
@@ -49,7 +49,7 @@ const Navbar = () => {
                             <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('inicio') }}>Inicio</li>
                             <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('sobreMi') }}>Sobre mi</li>
                             <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('proyectos') }}>Proyectos</li>
-                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('tecnologias') }}>Tecnologias</li>
+                            <li className="hover:underline cursor-pointer underline-offset-8" onClick={() => { scrollSection('tecnologías') }}>Tecnologías</li>
                         </ul>
                     </div>
                 )}
