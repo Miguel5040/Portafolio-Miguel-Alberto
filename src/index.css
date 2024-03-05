@@ -4,7 +4,7 @@
 
 @layer base {
     html {
-      font-family: "Montserrat", montserrat;
+      font-family: "Montserrat", montserrat, system-ui;
     }
 
     body {

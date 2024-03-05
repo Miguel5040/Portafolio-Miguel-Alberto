@@ -13,8 +13,8 @@ const AboutMe = () => {
             </div>
             <div className="container mx-auto max-w-[1200px] w-[90%] flex md:flex-row flex-col justify-between gap-8 lg:gap-16">
                 <article className="flex flex-col gap-6 justify-center items-center">
-                    <p className="text-lg text-pretty">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ducimus vero cupiditate id error architecto laborum culpa dicta dignissimos voluptates, recusandae maiores nemo delectus deserunt dolor ea nobis facere eum in rem, soluta adipisci illum sit! Sunt facere mollitia rerum.</p>
-                    <p className="text-lg text-pretty">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero mollitia architecto ratione magni alias corrupti magnam reprehenderit sunt voluptatibus perspiciatis. Labore saepe ratione dolorem quidem provident quia amet veniam magnam.</p>
+                    <p className="text-lg text-pretty">¡Hola! Soy Miguel Alberto, un desarrollador web apasionado por crear experiencias digitales únicas y funcionales. Mi enfoque se centra en la innovación y la creatividad para superar desafíos y ofrecer resultados excepcionales.</p>
+                    <p className="text-lg text-pretty">Soy una persona trabajadora y dedicada, siempre buscando formas de mejorar y superar obstáculos. Si estás buscando a alguien que aporte pasión y determinación a tu equipo, ¡aquí estoy yo!</p>
                 </article>
                 <Education />
             </div>
