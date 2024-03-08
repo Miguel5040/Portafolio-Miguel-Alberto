@@ -14,7 +14,20 @@ const fadeRightAnimation = {
             duration: 0.6
         }
     }
+}
 
+const downToTop = {
+    initial: {
+        y: 50,
+        opacity: 0
+    },
+    animate: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 0.4,
+        }
+    }
 }
   
 
@@ -23,18 +36,23 @@ const Technologies = () => {
     return (
         <section id="tecnologías" className="py-20 pb-32">
             <div className="container mx-auto max-w-[1200px] w-[90%] animated-div">
-                <div className="flex flex-col justify-center items-center mb-16">
+                <motion.div
+                variants={downToTop}
+                initial="initial"
+                whileInView="animate"
+                viewport={{ once: true, amount: 0.8 }}
+                 className="flex flex-col justify-center items-center mb-16">
                     <h1 className="pb-2 text-center">Tecnologías</h1>
                     <div className="flex flex-col items-center">
                         <div className="bg-[#bcbcbc] w-[50px] h-[2px] mb-2"></div>
                         <div className="bg-[#bcbcbc] w-[100px] h-[2px]"></div>
                     </div>
-                </div>
+                </motion.div>
                 <motion.div
                 variants={fadeRightAnimation}
                 initial="initial"
                 whileInView="animate"
-                viewport={{ once: true}}
+                viewport={{ once: true, amount: 0.8 }}
 
                  className="grid md:grid-cols-7 grid-cols-4 md:gap-16 gap-6">
                     <Language nombre={'React'} archivo={'react'} />

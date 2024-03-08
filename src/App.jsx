@@ -8,18 +8,18 @@ import Footer from "./components/Footer"
 const App = () => {
 
   return (
-    <div className="bg-[#0c1b2d] text-white min-h-full">
-      <div className="fixed w-full">
-        <Navbar />
+      <div className="bg-[#0c1b2d] text-white min-h-full">
+        <div className="fixed w-full">
+          <Navbar />
+        </div>
+        <div>
+          <Hero />
+          <AboutMe />
+          <Projects />
+          <Technologies />
+          <Footer />
+        </div>
       </div>
-      <div>
-        <Hero />
-        <AboutMe />
-        <Projects />
-        <Technologies />
-        <Footer />
-      </div>
-    </div>
   )
 }
 
