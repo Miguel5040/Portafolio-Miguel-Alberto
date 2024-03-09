@@ -7,7 +7,7 @@ const PetPlus = () => (
 
         <motion.div variants={fadeRightAnimation} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.5 }}
          className="w-full md:w-1/2 flex items-center md:max-w-[500px] shadow-[0_1px_60px_-20px_rgba(0,0,0,0.3)] shadow-[#aaa]">
-            <img className="w-[100%] aspect-video" src="../src/assets/images/petplus.jpg" alt="imagen de proyecto" />
+            <img className="w-[100%] aspect-video" src="./images/petplus.jpg" alt="imagen de proyecto" />
         </motion.div>
 
         <motion.div variants={fadeLeftAnimation} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.5 }}

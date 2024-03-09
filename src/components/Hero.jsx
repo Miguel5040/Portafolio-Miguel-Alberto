@@ -4,7 +4,7 @@ import { fadeAnimation, fadeRightAnimation, fadeLeftAnimation } from "../sub-com
 import { Linkedin, Github, Mail, Download } from "../sub-components/Icons"
 
 const IMAGEN_MUJER = "../src/assets/images/imagen-mujer.jpg"
-const IMAGEN_MIGUEL = "../src/assets/images/imagen-perfil-linkedin-square.png"
+const IMAGEN_MIGUEL = "./images/imagen-perfil-linkedin-square.png"
 
 const MAIL = 'miguel-ordonez@outlook.com'
 
