@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import Language from "../sub-components/Language"
+import Section from "../sub-components/Section"
 
 const fadeRightAnimation = {
     initial: {
@@ -34,8 +35,8 @@ const downToTop = {
 const Technologies = () => {
 
     return (
-        <section id="tecnologías" className="py-20 pb-32">
-            <div className="container mx-auto max-w-[1200px] w-[90%] animated-div">
+        <section id="tecnologías">
+            <Section className={"py-20 pb-32"}>
                 <motion.div
                 variants={downToTop}
                 initial="initial"
@@ -70,7 +71,7 @@ const Technologies = () => {
                     <Language nombre={'MySQL'} archivo={'mysql'} />
                     <Language nombre={'Jest'} archivo={'jest'} />
                 </motion.div>
-            </div>
+            </Section>
         </section>
     )
 }
