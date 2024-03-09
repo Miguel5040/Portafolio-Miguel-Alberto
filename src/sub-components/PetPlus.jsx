@@ -1,51 +1,16 @@
 import { motion } from "framer-motion"
-
-const fadeRightAnimation = {
-    initial: {
-        opacity: 0,
-        x: -100
-    },
-    animate: {
-        opacity: 1,
-        x: 0,
-        transition: {
-            delay: 0.1,
-            duration: 0.7
-        }
-    }
-}
-
-const fadeLeftAnimation = {
-    initial: {
-        opacity: 0,
-        x: 100
-    },
-    animate: {
-        opacity: 1,
-        x: 0,
-        transition: {
-            delay: 0.1,
-            duration: 0.7
-        }
-    }
-}
+import { fadeRightAnimation, fadeLeftAnimation } from "./Animations"
 
 const PetPlus = () => (
 
     <article className="flex flex-col md:flex-row lg:justify-center justify-between items-center gap-10">
-        <motion.div
-        variants={fadeRightAnimation}
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true, amount: 0.6 }}
+
+        <motion.div variants={fadeRightAnimation} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.5 }}
          className="w-full md:w-1/2 flex items-center md:max-w-[500px] shadow-[0_1px_60px_-20px_rgba(0,0,0,0.3)] shadow-[#aaa]">
             <img className="w-[100%] aspect-video" src="../src/assets/images/petplus.jpg" alt="imagen de proyecto" />
         </motion.div>
-        <motion.div
-        variants={fadeLeftAnimation}
-        initial="initial"
-        whileInView="animate"
-        viewport={{ once: true, amount: 0.6 }}
+
+        <motion.div variants={fadeLeftAnimation} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.5 }}
          className="flex flex-col md:items-start items-center gap-4 w-full md:w-1/2">
             <h3 className="text-3xl">Pet+</h3>
             <div className="flex flex-col gap-4 md:items-start items-center">
