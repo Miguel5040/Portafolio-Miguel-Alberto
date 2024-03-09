@@ -3,7 +3,8 @@ import Section from "../sub-components/Section"
 import { fadeAnimation, fadeRightAnimation, fadeLeftAnimation } from "../sub-components/Animations"
 import { Linkedin, Github, Mail, Download } from "../sub-components/Icons"
 
-const IMAGEN_MUJER = "../src/assets/images/imagen-mujer.JPg"
+const IMAGEN_MUJER = "../src/assets/images/imagen-mujer.jpg"
+const IMAGEN_MIGUEL = "../src/assets/images/imagen-perfil-linkedin-square.png"
 
 const MAIL = 'miguel-ordonez@outlook.com'
 
@@ -27,7 +28,7 @@ const Hero = () => {
 
                 <motion.div variants={fadeLeftAnimation} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.5 }}
                 className="flex flex-col gap-6">
-                    <img className="w-[220px] rounded-full object-cover aspect-square shadow-[0_1px_60px_-25px_rgba(0,0,0,0.3)] shadow-[#494949]" src={IMAGEN_MUJER} alt="fotografía de Miguel Alberto" />
+                    <img className="w-[220px] rounded-full object-cover aspect-square shadow-[0_1px_60px_-25px_rgba(0,0,0,0.3)] shadow-[#494949]" src={IMAGEN_MIGUEL} alt="fotografía de Miguel Alberto" />
                     <motion.div variants={fadeAnimation} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.5 }} className="flex justify-around">
 
                         <a href="https://www.linkedin.com/in/miguel-alberto-ordonez/" className="gap-2 w-fit inline-flex items-center p-2 text-sm font-medium rounded-lg bg-white text-gray-700 hover:text-[#3aa9ab] hover:bg-gray-100 border border-gray-300" target="_blank">
