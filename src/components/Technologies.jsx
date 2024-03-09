@@ -1,47 +1,15 @@
 import { motion } from "framer-motion"
 import Language from "../sub-components/Language"
 import Section from "../sub-components/Section"
-
-const fadeRightAnimation = {
-    initial: {
-        opacity: 0,
-        x: -100
-    },
-    animate: {
-        opacity: 1,
-        x: 0,
-        transition: {
-            delay: 0.1,
-            duration: 0.6
-        }
-    }
-}
-
-const downToTop = {
-    initial: {
-        y: 50,
-        opacity: 0
-    },
-    animate: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            duration: 0.4,
-        }
-    }
-}
+import { fadeRightAnimation, downToTop } from "../sub-components/Animations" 
   
-
 const Technologies = () => {
 
     return (
         <section id="tecnologías">
             <Section className={"py-20 pb-32"}>
                 <motion.div
-                variants={downToTop}
-                initial="initial"
-                whileInView="animate"
-                viewport={{ once: true, amount: 0.8 }}
+                variants={downToTop} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.5 }}
                  className="flex flex-col justify-center items-center mb-16">
                     <h1 className="pb-2 text-center">Tecnologías</h1>
                     <div className="flex flex-col items-center">
@@ -49,11 +17,7 @@ const Technologies = () => {
                         <div className="bg-[#bcbcbc] w-[100px] h-[2px]"></div>
                     </div>
                 </motion.div>
-                <motion.div
-                variants={fadeRightAnimation}
-                initial="initial"
-                whileInView="animate"
-                viewport={{ once: true, amount: 0.8 }}
+                <motion.div variants={fadeRightAnimation} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.4 }}
 
                  className="grid md:grid-cols-7 grid-cols-4 md:gap-16 gap-6">
                     <Language nombre={'React'} archivo={'react'} />
